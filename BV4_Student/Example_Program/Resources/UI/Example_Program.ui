@@ -12,43 +12,6 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="ctkCollapsibleButton" name="CollapsibleButton">
-     <property name="text">
-      <string>Uppstart</string>
-     </property>
-     <layout class="QGridLayout" name="gridLayout_3">
-      <item row="2" column="0">
-       <widget class="QLineEdit" name="lineEdit_Mega_Folder">
-        <property name="placeholderText">
-         <string>Mega-mapp</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1">
-       <widget class="QPushButton" name="pushButton_Choose_Mega_Folder">
-        <property name="text">
-         <string>Välj mapp</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0" colspan="2">
-       <widget class="QPushButton" name="pushButton_Load_Datasets">
-        <property name="text">
-         <string>Ladda in dataset</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLineEdit" name="inputBox_Flip_Number">
-        <property name="placeholderText">
-         <string>Flipdator</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-   </item>
-   <item>
     <widget class="ctkCollapsibleButton" name="CollapsibleButton_2">
      <property name="text">
       <string>Student</string>
